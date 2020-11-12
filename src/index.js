@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-
 import {  BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from '../src/pages/Home/App';
+
+import './assets/styles/settings/colors.css';
+import './assets/styles/reset.css';
+
+import Home from '../src/pages/Home/App.jsx';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Category';
 
