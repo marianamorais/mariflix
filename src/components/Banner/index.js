@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import container from '../../tools/container';
-import MainDescription from '../MainDescription';
-import MainThumb from '../MainThumb';
-import MainTitle from '../MainTitle';
+import MainDescription from '../../pages/Home/components/MainDescription';
+import MainTitle from '../../pages/Home/components/MainTitle';
 import TitleLabs from '../TitleLabs';
 
 export const Text = styled.div`
-  padding-top: 10rem;;
+  padding-top: 10rem;
  
  ${MainTitle} {
   margin-bottom: 40rem;

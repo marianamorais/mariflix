@@ -7,17 +7,13 @@ import Button from '../../components/Button';
 import { Banner, Text } from '../../components/Banner';
 import Footer from '../../components/Footer';
 
-import dadosIniciais from '../../data/dados_iniciais.json';
-import MainTitle from '../../components/MainTitle';
-
+import MainTitle from './components/MainTitle';
 import TitleLabs from '../../components/TitleLabs';
-import MainDescription from '../../components/MainDescription';
-import MainThumb from '../../components/MainThumb';
+import MainDescription from './components/MainDescription';
+import MainThumb from './components/MainThumb';
 
-import DesignCourse from '../../assets/img/design-course.png';
-import designCourse from '../../assets/img/designcourse.jpg';
-
-
+import DesignCourseVideo from '../../assets/img/design-course.png';
+import DesignCourseLogo from '../../assets/img/designcourse.jpg';
 
 function Home() {
   return (
@@ -40,10 +36,11 @@ function Home() {
         </Text>
 
         <MainThumb 
-          src={DesignCourse} 
+          src={DesignCourseVideo} 
           alt="Design Couse video" 
-          avatar ={designCourse}/>
-          channelName="Design Course";
+          avatar={DesignCourseLogo}
+          channelName="Design Course"
+        />
       </Banner>
 
       <Footer />

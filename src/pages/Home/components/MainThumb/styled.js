@@ -1,17 +1,26 @@
 import styled from 'styled-components';
 
 export const Avatar = styled.img`
---space: 10rem;
+  --space: 10rem;
   position: absolute;
+  top: var(--space);
+  left: var(--space);
+  width: 40rem;
+  border-radius: 50%;
+  border: 2rem solid var(--color-frontend);
+  transform: translateX(calc((100% + 10rem) * -1));
+  transition: transform 100ms linear;
+/* --space: 10rem;
+  
   width: 30rem;
   top: var(---space);
   left: var(---space);
-  border-radius: 50%;
-  border: 1rem solid var(--color-frontend);
-  transform: translateX(calc((100% + var(--space)) * -1));
+  
+  
+  
   opacity: 0;
-  transition: tranform 100ms linear, opacity 300ms linear;
- 
+  
+  */
 `;
 
 export const Thumb = styled.img`
@@ -20,11 +29,15 @@ export const Thumb = styled.img`
 
 export const WrapperThumb = styled.figure`
   position: relative;
-  border-radius: 4px;
-  border: 1rem solid var(--color-frontend);
   width:  2500px;
+  border: 1rem solid var(--color-frontend);
   overflow: hidden;
   cursor: pointer;
+  /* border-radius: 4px;
+  
+  
+  overflow: hidden;
+  
 
   &:hover {
     & > ${Avatar} {

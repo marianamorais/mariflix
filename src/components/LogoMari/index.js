@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import Logo from '../../assets/img/Logo.png';
+import Logo from '../../assets/img/mari-logo.png';
 
-const LogoMari = styled.img.attrs({ src: Logo , alt: 'Logo da MariLabs'})`
+const MariLogo = styled.img.attrs({ src: Logo , alt: 'MariLabs Logo'})`
   height: 35px;
 `;
 
-export default LogoMari;
+export default MariLogo;
