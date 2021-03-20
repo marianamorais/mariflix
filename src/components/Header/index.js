@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import container from "../../tools/container";
+import container from "../../assets/styles/container";
 import Button from "../Button";
-import LogoMari from "../LogoMari";
+import MariLogo from "../MariLogo";
 
 export const Header = styled.header`
-  background-color: var(--black);
+  background-color: var(--background);
   border-bottom: 1px solid var(--primary);
   padding: 20rem 0;
 
@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   @media(max-width: 800px) {
     justify-content: center;
 
-    & > ${LogoMari} {
+    & > ${MariLogo} {
       height: 35px;
     }
 

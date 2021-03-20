@@ -1,13 +1,13 @@
 import React from 'react';
 import { FooterBase } from './styled';
-import Logo from '../LogoMari';
-import ReactAluraLogo from '../ReactAluraLogo';
+import Logo from '../MariLogo';
+import AluraLogo from '../AluraLogo';
 
 function Footer() {
   return (
     <FooterBase>
       <Logo />
-      <ReactAluraLogo />
+      <AluraLogo />
     </FooterBase>
   );
 }
