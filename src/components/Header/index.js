@@ -5,7 +5,7 @@ import MariLogo from "../MariLogo";
 
 export const Header = styled.header`
   background-color: var(--background);
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid var(--purple);
   padding: 20rem 0;
 
   @media (max-width: 800px) {

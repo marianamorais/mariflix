@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Button = styled.button`
-  padding: 13px 20px;
+  padding: 10px 15px;
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -10,7 +10,7 @@ const Button = styled.button`
   cursor: pointer;
   border: 1.5px solid var(--green);
   background: none;
-  font-size: 17rem;
+  font-size: 14rem;
   font-weight: 500;
   transition: 0.5s;
 
